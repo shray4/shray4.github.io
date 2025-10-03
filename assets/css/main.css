@@ -1273,7 +1273,7 @@ input, select, textarea {
 
 			#header > *:before {
 				content: '';
-				display: block;
+				display: none;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
 				left: calc(50% - 1px);
@@ -1429,7 +1429,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 1200px) {
 
 			#header > * {
 				margin-top: 2rem;
